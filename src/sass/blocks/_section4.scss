@@ -26,19 +26,33 @@
       left: auto;
     }
     .slick-dots {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100px;
+      height: 23px;
       position: absolute;
+      bottom: -124px;
       left: 50%;
-      transform: translateX(-50%) rotate(90deg);
-      font-size: 30px;
-      button{
-        display: none;
-      }
-      .slick-active{
-        &::marker{
-          font-size: 30px;
-          color: red;
+      transform: translateX(-50%); 
+      list-style-type: none;
+      padding-left: 0;
+      .slick-active {
+        button {
+          background-color: #c1b6b6;
+          width: 23px;
+          height: 23px;
         }
       }
+    }
+    button {
+      background-color: #e8e5e5;
+      display: block;
+      font-size: 0;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: none;
     }
   }
 }

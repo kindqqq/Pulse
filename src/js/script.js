@@ -15,3 +15,4 @@ $('.section4__carousel').slick({
     },
   ]
 });
+
