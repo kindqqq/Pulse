@@ -1,5 +1,5 @@
 {
-  "name": "uber",
+  "name": "pulse",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kindqqq/uber.git"
+    "url": "git+https://github.com/pulse/pulse.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kindqqq/uber/issues"
+    "url": "https://github.com/kindqqq/pulse/issues"
   },
-  "homepage": "https://github.com/kindqqq/uber#readme"
+  "homepage": "https://github.com/kindqqq/pulse#readme"
 }
