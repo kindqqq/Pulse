@@ -1,0 +1,56 @@
+.footer {
+  height: 630px;
+  position: relative;
+  &__info {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 270px;
+    width: 460px;
+    background-color: $main-color;
+  }
+  &__addr {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  &__phone {
+    margin-top: 36px;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    &:hover {
+      color: #ffffff;
+    }
+  }
+  &__social {
+    display: flex;
+    justify-content: center;
+    margin: 36px auto 0;
+    &-item {
+      position: relative;
+      display: block;
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      border: 2px solid #fff; 
+      margin: 0 15px;
+      img {
+        height: 24px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
