@@ -1,11 +1,25 @@
-.consultation{
+.consultation {
   min-height: 680px;
   padding: 105px 0 108px 0;
   background: url(../img/mid-bg.jpg) center (center/cover) no-repeat;
-  &__descr{
+  &__descr {
     line-height: 31px;
     font-weight: 300;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #ffffff;
+  }
+  form {
+    label.error {
+      color: #fff;
+      border: none;
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    input.error {
+      border: 1px solid red;
+      margin-bottom: 10px;
+    }
   }
 }

@@ -382,6 +382,54 @@
       }
     }
   }
+  .modal {
+    width: calc(382px - 5%);
+    min-height: calc(302px - 5%);
+    padding: 30px 23px 35px;
+    &__close {
+      top: -10px;
+      right: -43px;
+      font-size: 28px;
+    }
+    &__subtitle {
+      font-size: 17px;
+    }
+    &__descr {
+      margin-top: 3px;
+      font-size: 12px;
+      line-height: 23px;
+    }
+    .feed-form {
+      margin: 20px auto 0;
+      input {
+        margin-bottom: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        height: 50px;
+      }
+      input.error {
+        margin-bottom: 8px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        height: 50px;
+      }
+      label.error {
+        margin-bottom: 8px;
+      }
+      button {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        height: 50px;
+      }
+    }
+    &_mini {
+      min-height: 140px;
+      padding: 27px 65px;
+    }
+  }
 }
 
 @media (max-width: 687px) {
@@ -694,7 +742,7 @@
       margin-top: 23px;
       font-size: 16px;
       line-height: 20px;
-    } 
+    }
     &__social {
       margin-top: 26px;
       &-item {
@@ -704,6 +752,70 @@
           height: 19px;
         }
       }
+    }
+  }
+  .consultation {
+    form {
+      label.error {
+        margin-bottom: 7px;
+        font-size: 12px;
+      }
+      input.error {
+        margin-bottom: 7px;
+      }
+    }
+  }
+  .modal {
+    width: calc(382px - 20%);
+    min-height: calc(302px - 25%);
+    padding: 20px 23px 25px;
+    &__close {
+      top: -10px;
+      right: -32px;
+      font-size: 23px;
+    }
+    &__subtitle {
+      line-height: 13px;
+      font-size: 13px;
+    }
+    &__descr {
+      margin-top: 0px;
+      font-size: 9.5px;
+      line-height: 23px;
+    }
+    .feed-form {
+      margin: 10px auto 0;
+      width: 100%;
+      input {
+        margin-bottom: 13px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+      }
+      input.error {
+        margin-bottom: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        height: 40px;
+      }
+      label.error {
+        font-size: 10px;
+        margin-bottom: 5px;
+      }
+      button {
+        font-size: 13px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        height: 40px;
+      }
+    }
+    &_mini {
+      min-height: 140px;
+      padding: 27px 65px;
     }
   }
 }
@@ -1022,6 +1134,27 @@
       }
     }
   }
+  .consultation {
+    form {
+      label.error {
+        margin-bottom: 5px;
+        font-size: 11px;
+      }
+      input.error {
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .modal {
+    width: calc(382px - 25%);
+    min-height: calc(302px - 25%);
+    padding: 20px 23px 25px;
+    &__close {
+      top: -10px;
+      right: -29px;
+      font-size: 23px;
+    }
+  }
 }
 @media (max-width: 468px) {
   .header {
@@ -1230,6 +1363,16 @@
           height: 16px;
         }
       }
+    }
+  }
+  .modal {
+    width: calc(382px - 30%);
+    min-height: calc(302px - 25%);
+    padding: 20px 23px 25px;
+    &__close {
+      top: -5px;
+      right: 3px;
+      font-size: 23px
     }
   }
 }
