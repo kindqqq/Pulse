@@ -1,5 +1,5 @@
-// Carousel
 $(document).ready(function () {
+  // Carousel
   $(".carousel__carousel").slick({
     speed: 1000,
     infinite: true,
@@ -103,5 +103,24 @@ $(document).ready(function () {
   validateForms("#consultation form");
   validateForms("#order form");
 
+  // input mask
   $("input[name=phone]").mask("+7(999) 999-99-99");
+
+  // Sending mails 
+  $("form").submit(function (e) {
+    e.preventDefault();
+    $.ajax({
+      type: "POST",
+      url: "mailer/smart.php",
+      data: $(this).serialize()
+    }).done(function () {
+      $(this).find("input").val("");
+      $('#consultation, #order').fadeOut();
+      $('.overlay, #thanks').fadeIn('slow');
+
+      $('form').trigger('reset');
+    });
+    return false;
+  });
+  
 });
