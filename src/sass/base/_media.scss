@@ -657,8 +657,6 @@
       &:last-child {
         margin-right: 0;
       }
-      &__content {
-      }
       &__img {
         height: 125px;
       }
@@ -882,8 +880,6 @@
       &__wrapper {
         height: 218px;
       }
-      &__content {
-      }
       &:nth-child(2n) {
         margin-right: 0;
       }
@@ -1078,8 +1074,6 @@
   .catalog {
     h2.title {
       font-size: 20px;
-    }
-    &__tabs {
     }
     &__tab {
       height: 25px;
