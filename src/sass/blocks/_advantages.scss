@@ -28,4 +28,12 @@
       }
     }
   }
+  &__icon{
+    &_animated{
+      animation: heardbeat 2s ease infinite 1s; 
+      &:hover{
+        animation-play-state: paused;
+      }
+    }
+  }
 }

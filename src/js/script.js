@@ -117,7 +117,6 @@ $(document).ready(function () {
       $(this).find("input").val("");
       $("#consultation, #order").fadeOut();
       $(".overlay, #thanks").fadeIn("slow");
-
       $("form").trigger("reset");
     });
     return false;
@@ -132,10 +131,13 @@ $(document).ready(function () {
     }
   });
 
-  $('a[href^="#"]').click(function() {
-    const  _href = $(this).attr("href")
-    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+  $('a[href="#pageup"]').click(function () {
+    const _href = $(this).attr("href");
+    $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
     return false;
   });
-  
+
+  //scroll animation
+  new WOW().init();
+
 });

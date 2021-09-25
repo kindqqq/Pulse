@@ -9,5 +9,9 @@
     color: #fff;
     font-size: 36px;
     text-align: left;
+    margin-bottom: 0;
+    &_mb{
+      margin-bottom: .5rem;
+    }
   }
 }
