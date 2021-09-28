@@ -5,9 +5,9 @@ $(document).ready(function () {
     infinite: true,
     // adaptiveHeight: true,
     prevArrow:
-      '<button type="button" class="slick-prev"><img src="icons/chevron-left-solid.svg"></button>',
+      '<button type="button" class="icon-chevron-left-solid"></button>',
     nextArrow:
-      '<button type="button" class="slick-next"><img src="icons/chevron-right-solid.svg"></button>',
+      '<button type="button" class="icon-chevron-right-solid"></button>',
     responsive: [
       {
         breakpoint: 992,

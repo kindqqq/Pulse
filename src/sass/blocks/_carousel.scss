@@ -8,23 +8,25 @@
       width: 90%;
       margin: 0 auto;
     }
-    .slick-prev,
-    .slick-next {
+    .icon-chevron-right-solid,
+    .icon-chevron-left-solid {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      left:-66px;
+      left: -66px;
       border: none;
       background-color: #ffffff;
       width: 31px;
       height: 50px;
       padding: 0 0;
-      img {
-        width: 31px;
-        height: 50px;
+      width: 31px;
+      height: 50px;
+      &::before {
+        color: $main-color;
+        font-size: 50px;
       }
     }
-    .slick-next {
+    .icon-chevron-right-solid {
       right: -66px;
       left: auto;
     }
@@ -32,19 +34,19 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 100px;
-      height: 23px;
+      width: 80px;
+      height: 16px;
       position: absolute;
       bottom: -55px;
       left: 50%;
-      transform: translateX(-50%); 
+      transform: translateX(-50%);
       list-style-type: none;
       padding-left: 0;
       .slick-active {
         button {
           background-color: #c1b6b6;
-          width: 23px;
-          height: 23px;
+          width: 16px;
+          height: 16px;
         }
       }
     }
@@ -52,8 +54,8 @@
       background-color: #e8e5e5;
       display: block;
       font-size: 0;
-      width: 20px;
-      height: 20px;
+      width: 14px;
+      height: 14px;
       border-radius: 50%;
       border: none;
     }
