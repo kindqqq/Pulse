@@ -139,5 +139,4 @@ $(document).ready(function () {
 
   //scroll animation
   new WOW().init();
-
 });
